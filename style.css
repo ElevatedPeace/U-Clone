@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+.section1 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar, .div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 0;
+    width: 100%;
+    margin: 0;
+    
+
+}
+.div2 {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button, .div1{
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(119, 119, 119, 0.336);
+}
+.navLink {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+.navLink:hover {
+    color: blue;
+}
+
+
+.input{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+.search {
+    font-size: 20px;
+    color: #777;
+}
+input {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    width: 400px;
+    margin: 20px;
+}
+.section2{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 5px;
+    background-size: cover;
+    background-image: url(https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/ff300b96-b107-41d9-aaf6-51434a83b35e.jpg);
+}
+
+.card {
+    background-color: white;
+    width: 70vh;
+    padding: 30px;
+    position: absolute;
+    margin: 70px;
+    font-size: 18px;
+    
+}
+
+.section3{
+    margin: 30px;
+    width: 100vh;
+}
+
+.section3-flex {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.section4{
+    border: 1px solid grey;
+    width: 95%;
+    margin: auto;
+}
+
+.section6{
+    width: 100%;
+}
+
+.transition-image {
+    transition: transform .2s;
+    width: 280px;
+  }
+  
+  .transition-image:hover {
+    transform: scale(1.06); 
+  }
+
+.section7 {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.089);
+    line-height: 2rem;
+    padding: 60px 30px;
+    margin: 40px;
+}
+
+.section8 {
+    margin: 10% 2%;
+}
+
+.section9, .section10{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.section11{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    bottom: 0;
+}
+ p>a{
+    color: #fff;
+    text-decoration: none;
+}
+ a:hover{
+    color: #fff;
+    text-decoration: underline;
+}

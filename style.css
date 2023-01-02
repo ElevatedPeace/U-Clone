@@ -11,22 +11,40 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.logo{
+    width: 100px;
+}
 .navbar, .div1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
     padding-bottom: 0;
     width: 100%;
     margin: 0;
-    
-
+}
+.logoInput-div{
+    display: flex; 
+    justify-content: 
+    space-between; 
+    align-items: center;
+}
+.logoInput-div2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navLink, .fa-cart-plus{
+    margin-left: 10px;
 }
 .div2 {
     display: flex;
     padding: 10px;
     cursor: pointer;
+}
+.nav-link-divs{
+    display: flex;
+    justify-content: space-between;
 }
 
 button, .div1{
@@ -45,6 +63,12 @@ button:hover{
 }
 
 
+.input-div {
+    margin-right: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
 .input{
     width: 500px;
     height: 50px;
@@ -52,7 +76,9 @@ button:hover{
     background-color: white;
     border-radius: 30px;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: -50px;
     border: 1px solid black;
 }
 .search {
@@ -65,8 +91,30 @@ input {
     height: 40px;
     font-size: 18px;
     padding: 5px;
-    width: 400px;
+    flex: 1;
     margin: 20px;
+}
+.log-in{
+    padding: 10px; 
+    border: 1px solid black; 
+    width:80px; 
+    margin: 5px;
+}
+.sign-up{
+    padding: 10px; 
+    background-color: black; 
+    color: #fff; 
+    width:80px; 
+    margin: 5px;
+}
+.nav-btn{
+    padding: 10px; 
+    border: 1px solid black; 
+    width:50px; 
+    margin: 5px;
+}
+.nav-btn img{
+    width:15px; 
 }
 .section2{
     width: 100%;
@@ -91,7 +139,12 @@ input {
     margin: 30px;
     width: 100vh;
 }
-
+.section3-h1{
+    font-size: 34px; margin-bottom: 15px; padding-top: 15px; 
+}
+.section3-p{
+    font-size: 22px
+}
 .section3-flex {
     display: flex;
     justify-content: space-between;
@@ -105,9 +158,60 @@ input {
     width: 95%;
     margin: auto;
 }
-
+.section4-div{
+    width: 130vh; margin: 30px;
+}
+.section4-h3{
+    font-size: 25px; 
+    padding-top: 10px; 
+    padding-bottom: 5px;
+}
+.section4-p{
+    font-size: 16px;
+}
+.section4-btn{
+    margin-top: 15px; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    width: 15%; 
+    border: 1.5px solid black;
+}
+.section4Flexed-img{
+    display: flex; 
+    justify-content:space-between; 
+    margin: 15px 0;
+}
+.section5Flexed-img{
+    display: flex; 
+    justify-content:space-between; 
+}
+.section5{
+    margin: 60px 30px;
+}
+.section5-h1{
+    margin: 15px;
+}
 .section6{
     width: 100%;
+}
+.section6-bigDiv{
+    margin: 30px; 
+}
+.section6-h2{
+    margin: 30px 0px;
+}
+.bigDiv-div1{
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center; 
+    cursor: pointer;
+}
+.bigDiv-div2{
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center; 
+    margin-top: 30px; 
+    cursor: pointer;
 }
 
 .transition-image {
@@ -126,14 +230,85 @@ input {
     padding: 60px 30px;
     margin: 40px;
 }
-
+.section7-divs{
+    display: flex; 
+    width:80%; 
+    justify-content: space-between;
+}
+.section7-btn{
+    margin-top: 15px; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    width: 15%; 
+    border: 1.5px solid black;
+}
 .section8 {
     margin: 10% 2%;
 }
-
+.section8-div{
+    text-align: center;
+}
+.section8-logos{
+    display: flex; 
+    justify-content: space-between; 
+    margin: 30px;
+}
+.section9-div1{
+    width: 70%; 
+    margin:auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.section9-div2{
+    width: 70vh; 
+    line-height: 2.5rem; 
+    font-size: 23px;
+}
+.section9-div2 >img{
+    width: 50%;
+    
+}
+.section9-btn1{
+    margin-top: 15px; 
+    background-color: black; 
+    color: #fff; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    width: 35%; 
+    border: 1.5px solid black;
+}
+.section9-btn2{
+    margin-top: 15px; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    width: 25%; 
+    border: 1.5px solid black;
+}
 .section9, .section10{
     width: 100%;
     margin: 30px 0;
+}
+.section10-div1{
+    width: 70%; 
+    margin:auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;  
+}
+.section10-div2{
+    width: 70vh; 
+    line-height: 2.5rem; 
+    font-size: 23px;
+}
+.section10-btn{
+    margin-top: 15px; 
+    background-color: black; 
+    color: #fff; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    width: 35%; 
+    border: 1.5px solid black;
 }
 
 .section11{
@@ -149,4 +324,182 @@ input {
  a:hover{
     color: #fff;
     text-decoration: underline;
+}
+.footer{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 30px 50px;
+}
+.footer-div1{
+    display: flex; 
+    justify-content: space-between; 
+    width: 60%;
+}
+.section11-div{
+    font-size: 15px;
+    line-height: 2rem;
+}
+.footer-btn{
+    cursor: pointer; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    text-align: center; 
+    padding: 10px; 
+    background-color: black; 
+    color: #fff; 
+    border: 1px solid white; 
+    width:120px; padding: 6px;
+}
+.footer-logo{
+    display: flex; 
+    justify-content:space-between; 
+    align-items:center; 
+    width: 100%; 
+    padding: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+    body{
+        width: 100vw;
+    }
+    #width-size{
+        width: 100vw;
+    }
+    .navbar, .logoInput-div2{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .logoDiv{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .logo{
+        width: 10vw;
+        align-items: center;
+    }
+    .div1{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .div2, .nav-link-divs{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section2{
+        width: 100vw;
+    }
+    .input{
+        width: 100vw;
+        margin-right: 5px;
+    }
+    input{
+        font-size: 12px;
+    }
+    .input-div {
+        align-items: center; 
+        justify-content: flex-start;
+        margin: 10px 5px;
+    }
+    .search {
+        font-size: 12px;
+    }
+    .card {
+        width: 30vh;
+        padding: 20px;
+        font-size: 14px;
+        
+    }
+    .section3{
+        margin: 15px;
+        width: 100vw;
+    }
+    .section3-h1{
+        font-size: 30px;
+    }
+    .section3-p, .section4-h3{
+        font-size: 18px;
+        width: 80vw;
+    }
+    .section3-flex{
+        flex-direction: column;
+    }
+    .section4-p{
+        font-size: 14px;
+        width: 70vw;
+    }
+    .section4-btn, .section7-btn{
+        padding: 5px; 
+        width: 80vw; 
+    }
+    .section5Flexed-img{
+        flex-wrap: wrap; 
+        justify-content: center; 
+        align-items: center;
+    }
+    .section5-h1{
+        text-align: center;
+    }
+    .section4Flexed-img{
+        display: none;
+    }
+    
+    .bigDiv-div1, .bigDiv-div2{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .section7 {
+    
+        padding: 30px 10px;
+        margin: 20px;
+    }
+    .section7-divs{
+       flex-direction: column;
+    }
+    .section7-divs >p, .section7-divs >a{
+        font-size: 10px;
+    }
+    .section7-divs >div{
+        font-size: 14px; 
+    }
+    .section8-logos{
+        flex-direction: column;
+    }
+    .section9-div1{
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .section9-div2 >img{
+        width: 40%;
+        
+    }
+    .section9-btns{
+        display: flex;
+        flex-direction: column;
+    }
+    .section10-div1{
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .section10-div2 >h1, .section9-div2 >h1{
+        font-size: 16px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .section10-div2 >p, .section9-div2 >ul>li {
+        font-size: 14px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .section9-img, .section10-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    
 }
